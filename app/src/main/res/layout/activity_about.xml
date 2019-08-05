@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        android:scrollingCache="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/image_about"
+                    android:src="@drawable/img_about" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:background="@drawable/btn_about"
+                        android:text="@string/contact_us"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/about_batik"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_3"
+                        app:fontFamily="sans-serif-medium" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/spacing_m_large"
+                android:paddingTop="@dimen/spacing_large"
+                android:paddingRight="@dimen/spacing_m_large"
+                android:paddingBottom="@dimen/spacing_large">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/app_name"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/colorPrimary"
+                    app:fontFamily="sans-serif-medium" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:text="@string/about"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/grey_60"
+                    app:fontFamily="sans-serif-light" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:text="@string/about_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/grey_60" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:text="@string/source"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/grey_60"
+                    app:fontFamily="sans-serif-light" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:text="@string/wikipedia"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/grey_60" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:text="@string/infobatik"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/grey_60" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:text="@string/tagar_id"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/grey_60" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

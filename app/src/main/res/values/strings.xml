@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">BatikMoo</string>
+    <string name="content_batik_megamendung">Batik Megamendung merupakan motif kain batik khas daerah Cirebon. Motif batik Megamendung sangat khas dengan bentuk awan besar berwarna cerah dan mencolok. Beberapa warna yang umum digunakan pada batik Megamendung adalah biru, merah tua, ungu, dan hijau tua.</string>
+    <string name="batik_name">Batik Megamendung</string>
+    <string name="batik_from">Khas Cirebon</string>
+    <string name="description">Deskripsi</string>
+    <string name="about">about</string>
+    <string name="profile">profile</string>
+    <string name="about_batik">Batik Adalah Salah Satu Warisan Kekayaan Budaya Nusantara yang Telah Mendunia</string>
+    <string name="contact_us">KONTAK KAMI</string>
+    <string name="source">sumber rujukan</string>
+    <string name="wikipedia">- https://wikipedia.org</string>
+    <string name="infobatik">- https://infobatik.id</string>
+    <string name="tagar_id">- https://tagar.id</string>
+    <string name="about_content">BatikMoo adalah sarana untuk lebih mengenal kekayaan batik Indonesia</string>
+    <string name="profile_me">Yulian Hartadi</string>
+    <string name="android_enthusiast">Android Enthusiast</string>
+    <string name="about_me">Hi.. saya yulian, saya adalah pengembang app ini, Anda bisa temukan saya di sini</string>
+    <string name="address_content">Tangkil Baru, Gg. Talok 6, Manang, Grogol</string>
+    <string name="ic_phone">ic_phone</string>
+    <string name="ic_email">email_icon</string>
+    <string name="icon_phone">icon_phone</string>
+    <string name="profile_phone">Phone</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_address">Address</string>
+    <string name="phone_me">(+62) 89501613982</string>
+    <string name="email_me">rawzadigital@gmail.com</string>
+    <string name="location_me">Location</string>
+    <string name="city_me">Sukoharjo, Jawa Tengah</string>
+    <string name="image_about">image_about</string>
+    <string name="batik_img_detail">Batik</string>
+    <string name="icon_favorit">favorit</string>
+
+</resources>
